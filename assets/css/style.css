@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+
+}
+.main{
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    max-width: 350px;
+    height: 100vh;
+    background-color: rgb(249, 249, 249);
+}
+
+/* LOGO DA RIOT GAMES */
+.lol-logo{
+    text-align: center;
+    width: 100%;
+
+}
+.logo-RG{
+    width: 100px;
+}
+/* ICONES DE REDES SOCIAIS */
+.icone{
+    width: 15px;
+}
+
+/* AREA DE LOGIN */
+.area-login{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+/* TITULO DO LOGIN */
+.login-titulo{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    color: rgb(15, 15, 15);
+}
+
+/* ÁREA DOS INPUTS */
+.login-inputs{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+/* SPAM's */
+::placeholder{
+    font-size: 9px;
+    font-family: 'Questrial';
+    font-weight: 900;
+    color: rgb(100, 100, 100);
+
+}
+
+/* INPUT PARA INSERIR ALGO */
+.inserir{
+    width: 75%;
+    height: 45px;
+    padding-left: 10px;
+    
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+
+    background-color: rgb(238, 238, 238);
+}
+.inserir:focus{
+    background-color: rgb(250, 250, 250);
+
+}
+
+/* REDES SOCIAIS */
+.redes-sociais{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    margin-top: 10px;
+}
+.caixinha{
+    width: 23%;
+    padding: 3px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* FACEBOOK */
+.facebook{
+    background-color: rgb(66, 122, 245);
+}
+.facebook:hover{
+    background-color: rgb(61, 113, 224);
+}
+
+/*GOOGLE */
+.google{
+    background-color: white;
+    border: 2px solid rgb(235, 235, 235);
+}
+.google:hover{
+    background-color: rgb(247, 247, 247);
+}
+
+/* APPLE */
+.apple{
+    background-color: black;
+}
+.apple:hover{
+    background-color: rgb(22, 22, 22);
+}
+
+/* ÁREA DE MANTER LOGIN */
+.manter-login{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.checkbox{
+    margin-left: 12.5%;
+    cursor: pointer;
+}
+
+.spam-manter{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+
+/* BOTÃO DE ENTRAR */
+.lol-botao-entrar{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botao-entrar{
+    padding: 10px 12px 7px 12px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.botao-entrar:hover{
+    cursor: pointer;
+}
+
+/* FOOTER */
+.footer{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.p-footer{
+    font-size: 9px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    color: rgb(158, 158, 158);
+    cursor: pointer;
+}
+.p-footer:hover{
+    color: black;
+}
