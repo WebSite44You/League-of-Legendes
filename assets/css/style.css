@@ -143,6 +143,7 @@ body{
 .checkbox{
     margin-left: 12.5%;
     cursor: pointer;
+    accent-color: rgb(233, 0, 0);
 }
 
 .spam-manter{
